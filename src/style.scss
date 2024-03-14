@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Play:wght@400;700&family=Silkscreen:wght@400;700&display=swap");
+// font-family: "Silkscreen", sans-serif;
+// font-family: "Inconsolata", monospace;
+//font-family: "Play", sans-serif;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+  @apply h-dvh text-xxs;
+  background-image: url("./src/assets/checkbgg.png");
+}
+
+.myIcons {
+  svg {
+    background-color: #eeeeee;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid #c5c5c5;
+    border-right: 1px solid #c5c5c5;
+    padding: 2px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #e0e0e0;
+      border-bottom: 1px solid white;
+      border-right: 1px solid white;
+      border-top: 1px solid #c5c5c5;
+      border-left: 1px solid #c5c5c5;
+    }
+  }
+}
+
+.myBody {
+  border-top: 1px solid #b5b5b5;
+  border-left: 1px solid #b5b5b5;
+  border-bottom: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+}
+
+.myShadow {
+  box-shadow: 5px 5px 2px 0 rgba(29, 7, 7, 0.243);
+}
+
+.myNav2 {
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+    &:not(:last-child) {
+      padding-right: 0.5rem;
+      border-right: 1px solid #b5b5b5bd;
+    }
+  }
+}
+
+.myBtn {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid transparent;
+  border-right: 1px solid transparent;
+  &:hover {
+    background-color: #e0e0e0;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+  }
+}
+
+.movingText {
+  animation: move-words 35s linear infinite;
+  -webkit-animation: move-words 35s linear infinite;
+
+  @media (max-width: 767px) {
+    animation: move-words2 35s linear infinite;
+    -webkit-animation: move-words2 35s linear infinite;
+  }
+}
+
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+@keyframes move-words2 {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -800%;
+  }
+}
