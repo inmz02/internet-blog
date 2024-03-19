@@ -1,6 +1,7 @@
 import About from "../pages/About";
 import Home from "../pages/Home";
 import { Routes, Route } from "react-router-dom";
+import Journal from "../pages/Journal";
 
 const Wrapper = () => {
   return (
@@ -9,6 +10,7 @@ const Wrapper = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-the-webmaster" element={<About />} />
+          <Route path="/my-journal" element={<Journal />} />
         </Routes>
       </div>
     </div>

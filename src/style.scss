@@ -15,6 +15,12 @@ body {
   background-image: url("./src/assets/checkbgg.png");
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Play", sans-serif;
+}
+
 .myIcons {
   svg {
     background-color: #eeeeee;
@@ -35,6 +41,48 @@ body {
   }
 }
 
+.post {
+  .post-header {
+    @apply flex items-center justify-between px-2 py-[3px];
+    background-color: #c5c5c5;
+
+    div {
+      @apply flex gap-2 items-center justify-between font-bold;
+      img {
+        @apply w-[14px] h-fit;
+      }
+    }
+
+    img {
+      @apply w-[14px] h-fit;
+    }
+  }
+
+  .post-mood {
+    @apply w-full cursor-default;
+    background-color: #535c6b;
+    tbody {
+      @apply grid grid-cols-2 w-full gap-[1px];
+
+      tr {
+        @apply flex flex-col gap-[1px];
+
+        td {
+          @apply flex py-1 px-2 bg-slate-300 gap-2;
+
+          img {
+            @apply w-[14px] h-fit;
+          }
+        }
+      }
+    }
+  }
+
+  .post-body {
+    @apply flex flex-col gap-4;
+  }
+}
+
 .myBody {
   border-top: 1px solid #b5b5b5;
   border-left: 1px solid #b5b5b5;
@@ -48,6 +96,7 @@ body {
 
 .myNav2 {
   a {
+    @apply flex gap-1 items-center justify-center;
     &:hover {
       text-decoration: underline;
     }

@@ -1,0 +1,34 @@
+{
+  "journal-no1": {
+    "date": "2024-03-14",
+    "mood": {
+      "feeling": "Happy",
+      "activity": "Reading",
+      "music": "Upbeat",
+      "game": "Minecraft",
+      "anime": "Black Blood Brothers",
+      "weather": "Sunny"
+    },
+    "entry": {
+      "p1": "Today was a great day. I had a productive morning reading a good book.",
+      "p2": "The weather was beautiful, so I took a walk in the afternoon and enjoyed the sunshine.",
+      "p3": "Overall, I'm feeling happy and content."
+    }
+  },
+  "journal-no2": {
+    "date": "2024-03-15",
+    "mood": {
+      "feeling": "Stressed",
+      "activity": "Working on a project",
+      "music": null,
+      "game": "Playing a relaxing game",
+      "anime": "Watching an episode of my favorite show",
+      "weather": "Rainy"
+    },
+    "entry": {
+      "paragraph1": "Today was a bit stressful, but I managed to make progress on my project.",
+      "paragraph2": "I needed some relaxation after work, so I played a game and watched some anime.",
+      "paragraph3": "Hopefully, tomorrow will be a calmer day."
+    }
+  }
+}
