@@ -25,21 +25,21 @@ const NavBar2 = () => {
         />
         Journal
       </Link>
-      <Link>
+      <Link to="/programming">
         <img
           src="https://64.media.tumblr.com/fe1fac4fb32ff51bae68e1f475d6bf88/tumblr_inline_mg0p03F9E81qdlkyg.gif"
           className="w-3 h-fit"
         />
         Programming
       </Link>
-      <Link>
+      <Link to="/lord-jesus">
         <img
           src="https://64.media.tumblr.com/tumblr_m3j3x0f0yd1qdlkyg.gif"
           className="w-3 h-fit"
         />
         Lord Jesus
       </Link>
-      <Link>
+      <Link to="/philosphy">
         <img
           src="https://64.media.tumblr.com/b90763cb84f32d3a2b4fa5dcbf059540/7cf915f60095705b-65/s75x75_c1/5641b6064fa659676816e5bcf9068dbe8ffda170.gif"
           className="w-3 h-fit"

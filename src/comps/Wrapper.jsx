@@ -2,6 +2,9 @@ import About from "../pages/About";
 import Home from "../pages/Home";
 import { Routes, Route } from "react-router-dom";
 import Journal from "../pages/Journal";
+import Programming from "../pages/Programming";
+import LordJesus from "../pages/LordJesus";
+import Philosphy from "../pages/Philosphy"
 
 const Wrapper = () => {
   return (
@@ -11,6 +14,9 @@ const Wrapper = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about-the-webmaster" element={<About />} />
           <Route path="/my-journal" element={<Journal />} />
+          <Route path="/programming" element={<Programming />} />
+          <Route path="/lord-jesus" element={<LordJesus />} />
+          <Route path="/philosphy" element={<Philosphy />} />
         </Routes>
       </div>
     </div>
